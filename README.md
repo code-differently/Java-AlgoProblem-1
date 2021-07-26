@@ -27,3 +27,6 @@ Wu
 14
 WuTangForever
 ```
+
+## Submission
+Push your changes to GitHub
