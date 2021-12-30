@@ -1,31 +1,40 @@
-# WuTangForever
+# Show me the Numbers
 
-Write a short program that prints each number from 1 to n on a new line. 
+Write a short program that returns all the numbers from 1 to n, each on a new line. 
 
-For each multiple of 3, print "Wu" instead of the number. 
+## Example 1
 
-For each multiple of 5, print "Tang" instead of the number. 
+### Input 
+n: 5
 
-For numbers which are multiples of both 3 and 5, print "WuTang Forever" instead of the number.
-
-## Example Output
+### Output
 
 ```
 1
 2
-Wu
+3
 4
-Tang
-Wu
+5
+```
+
+## Example 2
+
+### Input 
+n: 10
+
+### Output
+
+```
+1
+2
+3
+4
+5
+6
 7
 8
-Wu
-Tang
-11
-Wu
-13
-14
-WuTangForever
+9
+10
 ```
 
 ## Submission
