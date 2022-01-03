@@ -1,7 +1,7 @@
 package hbcu.stay.ready.algorithms;
 
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.Assertions;
 
 public class AlgoProblem1Test {
 
@@ -12,7 +12,7 @@ public class AlgoProblem1Test {
         String expected = "1\n2\n3\n4\n5\n";
         String actual = algoProblem1.count(5);
 
-        Assert.assertEquals(expected,actual);
+        Assertions.assertEquals(expected,actual);
     }
 
     @Test
@@ -22,7 +22,7 @@ public class AlgoProblem1Test {
         String expected = "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n";
         String actual = algoProblem1.count(10);
 
-        Assert.assertEquals(expected,actual);
+        Assertions.assertEquals(expected,actual);
     }
 
     @Test
@@ -32,7 +32,7 @@ public class AlgoProblem1Test {
         String expected = "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n";
         String actual = algoProblem1.count(40);
 
-        Assert.assertEquals(expected,actual);
+        Assertions.assertEquals(expected,actual);
     }
 
 
